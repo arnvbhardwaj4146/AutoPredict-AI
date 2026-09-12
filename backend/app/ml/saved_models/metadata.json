@@ -1,0 +1,50 @@
+{
+  "all_input_features": [
+    "vehicle_type",
+    "engine_type",
+    "vehicle_age",
+    "mileage",
+    "engine_temperature",
+    "rpm",
+    "engine_load",
+    "battery_voltage",
+    "oil_condition",
+    "brake_wear",
+    "tyre_pressure",
+    "service_count",
+    "distance_since_service",
+    "average_speed",
+    "hard_braking_events",
+    "hard_acceleration_events",
+    "driving_hours"
+  ],
+  "categorical_features": [
+    "vehicle_type",
+    "engine_type"
+  ],
+  "numerical_features": [
+    "vehicle_age",
+    "mileage",
+    "engine_temperature",
+    "rpm",
+    "engine_load",
+    "battery_voltage",
+    "oil_condition",
+    "brake_wear",
+    "tyre_pressure",
+    "service_count",
+    "distance_since_service",
+    "average_speed",
+    "hard_braking_events",
+    "hard_acceleration_events",
+    "driving_hours"
+  ],
+  "targets": [
+    "overall_health_score",
+    "engine_failure",
+    "battery_failure",
+    "brake_failure",
+    "tyre_failure",
+    "maintenance_distance"
+  ]
+}

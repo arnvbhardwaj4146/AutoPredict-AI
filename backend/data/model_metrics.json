@@ -1,0 +1,67 @@
+{
+  "dataset": {
+    "total_samples": 5000,
+    "train_samples": 4000,
+    "test_samples": 1000,
+    "features_count": 24,
+    "random_state": 42
+  },
+  "models": {
+    "overall_health_score": {
+      "task_type": "regression",
+      "algorithm": "RandomForestRegressor",
+      "metrics": {
+        "mae": 3.336,
+        "r2": 0.9507
+      }
+    },
+    "engine_failure": {
+      "task_type": "classification",
+      "algorithm": "RandomForestClassifier",
+      "metrics": {
+        "accuracy": 0.935,
+        "precision": 0.8932,
+        "recall": 0.8106,
+        "f1_score": 0.8499
+      }
+    },
+    "battery_failure": {
+      "task_type": "classification",
+      "algorithm": "RandomForestClassifier",
+      "metrics": {
+        "accuracy": 0.869,
+        "precision": 0.8083,
+        "recall": 0.7288,
+        "f1_score": 0.7665
+      }
+    },
+    "brake_failure": {
+      "task_type": "classification",
+      "algorithm": "RandomForestClassifier",
+      "metrics": {
+        "accuracy": 0.9,
+        "precision": 0.8581,
+        "recall": 0.6165,
+        "f1_score": 0.7175
+      }
+    },
+    "tyre_failure": {
+      "task_type": "classification",
+      "algorithm": "RandomForestClassifier",
+      "metrics": {
+        "accuracy": 0.77,
+        "precision": 0.8103,
+        "recall": 0.4172,
+        "f1_score": 0.5508
+      }
+    },
+    "maintenance_distance": {
+      "task_type": "regression",
+      "algorithm": "RandomForestRegressor",
+      "metrics": {
+        "mae": 250.995,
+        "r2": 0.9799
+      }
+    }
+  }
+}
