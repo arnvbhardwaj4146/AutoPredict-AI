@@ -39,6 +39,25 @@ The platform pairs a **FastAPI** backend orchestrating a multi-model **Random Fo
 
 ---
 
+## Screenshots
+
+### Dashboard
+![AutoPredict AI Dashboard](docs/screenshots/dashboard.png)
+
+### Vehicle Analysis
+![Vehicle Analysis](docs/screenshots/vehicle-analysis.png)
+
+### Failure Prediction
+![Failure Prediction](docs/screenshots/failure-prediction.png)
+
+### Maintenance Planner
+![Maintenance Planner](docs/screenshots/maintenance.png)
+
+### Analytics
+![Analytics Dashboard](docs/screenshots/analytics.png)
+
+---
+
 ## 3. System Architecture
 
 The end-to-end platform follows a decoupled, data-driven architecture:
@@ -251,6 +270,9 @@ Serves the verified evaluation report directly from `backend/data/model_metrics.
 AutoPredict-AI/
 ├── .gitignore                          # Git ignore definitions
 ├── README.md                           # Project documentation
+│
+├── docs/
+│   └── screenshots/                    # Application UI screenshots
 │
 ├── backend/
 │   ├── requirements.txt                # Pinned Python dependencies
